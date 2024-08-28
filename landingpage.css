@@ -1,0 +1,129 @@
+body{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 75px;
+    height: 75px;
+    /* margin-right: 450px; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    /* background-color: #FF8A8A;  */
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 20px;
+}
+.kepala{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #508C9B;
+    cursor: pointer;
+}
+.kepala:hover{
+    color: gray;
+}
+.kepala:active{
+    color: darkgray;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: absolute;
+}
+.container img{
+    width: 500px;
+    cursor: pointer;
+    height: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.container img:hover{
+    width: 600px; 
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.container ul a{
+    color: black;
+}
+.program{
+    position: relative;
+    top: 100vh;
+    padding: 10px;
+}
+.program h2{
+    text-align: center;
+}
+.kontak{
+    position: relative;
+    top: 100vh;
+    text-align: center;
+}
+.kontak h2{
+    text-align: center;
+}
+.kontak a{
+    color: black;
+}
+footer {
+    background-color: #508C9B;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    top: 100vh;
+    position: relative;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.card img {
+    width: 300px;
+    height: auto;
+}
+.card-body {
+    padding: 15px;
+}
+.card-title {
+    font-size: small;
+    margin: 0;
+    color: #333;
+}
+.card-text {
+    font-size: medium;
+    color: #666;
+}
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.card-button:hover {
+    background-color: #0056b3;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
